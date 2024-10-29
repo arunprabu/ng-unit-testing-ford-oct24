@@ -9,5 +9,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'ng-unit-testing-ford-oct24';
+  title = 'Ng Unit Testing Demo!';
+
+  add(a: number, b: number): number {
+    return a + b;
+  }
 }
