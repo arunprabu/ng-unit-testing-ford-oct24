@@ -20,9 +20,17 @@ Automated Testing
         Testing Components
           * Testing TS [DONE]
           * Testing HTML [DONE]
-          * Testing Styles (inline)
-          * Testing Event Handler 
-          * 
+          * Testing Styles (inline) [DONE]
+          * Testing Styles (external css class) [TODO]
+          * Testing Event Handler [DONE]
+          * code coverage [TO LEARN]
+            execute the following command in the terminal / cmd prompt
+              ng test --code-coverage
+            then, 
+              check the coverage report in the terminal / cmd prompt
+              also, check the coverage report in the project folder
+
+          
         Testing Directives
         Testing Service
         Testing Pipes 
